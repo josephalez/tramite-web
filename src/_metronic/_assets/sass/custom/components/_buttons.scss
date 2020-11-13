@@ -1,0 +1,21 @@
+// 
+// _buttons.scss
+// 
+
+button,a {
+  outline: none !important;
+}
+
+
+// Rounded Buttons
+.btn-rounded {
+  border-radius: 30px;
+}
+
+.btn-dark, .btn-secondary{
+  color: lightgray !important;
+}
+
+.btn-outline-light{
+  color: lightgrey;
+}

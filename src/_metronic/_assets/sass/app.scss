@@ -1,0 +1,28 @@
+/*
+Template Name: Skote - Responsive Bootstrap 4 Admin Dashboard
+Author: Themesbrand
+Version: 1.1.0
+Website: https://themesbrand.com/
+Contact: themesbrand@gmail.com
+File: Main Css File
+*/
+
+//Fonts
+@import "custom/fonts/fonts";
+
+//Core files
+
+// Structure
+@import "custom/structure/general";
+// Components
+//@import "custom/components/waves";
+@import "custom/components/avatar";
+//@import "custom/components/demos";
+
+
+// Plugins
+@import "custom/plugins/rating";
+@import "custom/plugins/apexcharts";
+
+
+// Pages

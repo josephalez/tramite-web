@@ -1,0 +1,69 @@
+//@import "../../../_metronic/_assets/sass/theme.scss";
+
+.apexcharts-canvas {
+    text {
+        fill: #adb5bd !important;
+    }
+}
+
+.bg-soft-primary{
+    background-color: rgba(85,110,230,.25)!important;
+}
+
+.mini-stats-wid .mini-stat-icon {
+    overflow: hidden;
+    position: relative;
+}
+.avatar-sm {
+    height: 3.5rem!important;
+    width: 3.5rem!important;
+}
+
+.avatar-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    //background-color: #556ee6;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%; 
+    i{
+        color:#ffffff;
+    }
+}
+
+.apex-charts-text, .apex-charts-canvas-text, .apex-charts-datalbel-value{
+    color:#adb5bd !important;
+    fill:#adb5bd !important;
+}
+
+.profile-user-wid {
+    margin-top: -26px;
+}
+
+.avatar-md {
+    height: 5.7rem!important;
+    width: 5.7rem!important;
+}
+
+.verti-timeline .event-list .event-timeline-dot {
+    position: absolute;
+    left: -9px;
+    top: 0;
+    z-index: 9;
+    font-size: 16px;
+}
+
+.verti-timeline .event-list.active .event-timeline-dot {
+    color: #556ee6;
+    .event-timeline-dot > i {
+        animation: fade-right 1.5s infinite linear;
+    }
+}
